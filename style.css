@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {}
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+   
+    margin: 8px;
+    text-align: center
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color:#e9e0d8 ;
+    color:#243E36 ;
+      opacity: 0.80
+  }
+  
+  .container {
+    padding: 0 16px;
+    text-align:center
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  

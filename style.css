@@ -1,47 +1,36 @@
-html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+html,
   body { font-family: 'Lekton', sans-serif; margin:0;
     color:black;
   font-size: 18px;
   line-height: 1.5;}
-.column {
-    float: left;
-    width: 50%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-   
-    margin: 8px;
-    text-align: center
-  }
-  
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    background-color:#e9e0d8 ;
-    color:#243E36 ;
-      opacity: 0.80
-  }
-  
-  .container {
-    padding: 0 16px;
-    text-align:center
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  
+  section {
+    overflow: auto ; padding: 15px;
+        
+    }
+  .pozadi {background-image: url(obrazky/pozadi.png); background-repeat: no-repeat;background-attachment:fixed;
+    background-size: cover ;}
+    .menu {
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      color: black;
+      background-color:white;
+      opacity: 80%;
+     
+    }
+    
+    .menu a {
+      display: inline-block;
+      padding: 20px 30px;
+      font-size: 20px;
+      font-style: normal;
+      text-decoration: none;
+      font-weight: bold;
+      color:black;
+    }
+    
+    .menu a:hover {
+      background-color:#b62432;
+    }
+
   

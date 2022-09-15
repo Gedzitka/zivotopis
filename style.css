@@ -33,6 +33,7 @@ html,
     
     .menu a:hover {
       background-color:#b62432; }
+    
 
       /* Hlavička */
     .hlavicka {background-color: #b62432;text-align: center;height: 150px;}
@@ -58,9 +59,7 @@ html,
 .box3 {text-align:justify;margin: 50px;max-width: 700px;padding-left:  300px;}
 .janina4 {max-width: 100%; height:auto ;width: 300px;float:right;margin-top: 200px;}
 /* Sekce a kontakty*/
-.Kontakty {background-color: gray;;margin-top: 200px;height: 200px;}
-.fc {max-width: 100%;width: 100px;height: auto;margin:80px;text-align: center;}
+.Kontakty { background-color:grey;
+  opacity: 80%;text-align: center;padding:0;margin:0;}
 
-.mobil{max-width: 100%;width: 100px;height: auto;margin:80px ;text-align: center;}
-.mail {max-width: 100%;width: 100px;height: auto; margin:80px;text-align: center;}
-.box4 {width: 900px;padding-left:  300px;}
+.fc,.mobil,.mail {max-width: 100%;width: 70px;height: auto;padding: 0 50px ;}

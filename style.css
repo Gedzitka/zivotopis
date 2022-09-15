@@ -3,12 +3,14 @@ html,
     color:black;
   font-size: 18px;
   line-height: 1.5;}
+  /* Sekce a barvy pozadí */
   section {
-    overflow: auto ; padding: 15px;
+    overflow: auto ; padding: 0;
         
     }
   .pozadi {background-image: url(obrazky/pozadi.png); background-repeat: no-repeat;background-attachment:fixed;
     background-size: cover ;}
+    /* Menu*/
     .menu {
       margin: 0;
       padding: 0;
@@ -30,7 +32,26 @@ html,
     }
     
     .menu a:hover {
-      background-color:#b62432;
-    }
+      background-color:#b62432; }
 
-  
+      /* Hlavička */
+    .hlavicka {background-color: #b62432;text-align: center;height: 150px;}
+    .logo {max-width: 100%;height: auto;width: 150px;}
+
+    /* Sekce a o mně */
+    .Omne {background-color: black;color: white;margin-top: 200px;}
+    .janina1{max-width: 100%; height:auto ;width: 200px;float:left;}
+.box {text-align: justify;margin: 50px;padding-left:  300px;}
+   
+      /* Sekce a vzdělání*/
+.Vzdelani {background-color: #b62432;color: black;margin-top: 200px;}
+.box1 {text-align: justify;margin: 50px;max-width: 700px;padding-left:  300px;}
+.janina2{max-width: 100%; height:auto ;width: 200px;float:right;}
+/* Sekce a vzdělání*/
+.Pracovnizkusenosti{background-color: gray;color: #b62432;margin-top: 200px;}
+.box2 {text-align:justify;margin: 50px;max-width: 700px;padding-left:  300px;}
+.janina3 {max-width: 100%; height:auto ;width: 200px;float:left;}
+/* Sekce a budoucnost*/
+.Budoucnost {background-color: white;color: #b62432;margin-top: 200px;}
+.box3 {text-align:justify;margin: 50px;max-width: 700px;padding-left:  300px;}
+.janina4 {max-width: 100%; height:auto ;width: 300px;float:right;margin-top: 200px;}

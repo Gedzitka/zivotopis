@@ -42,6 +42,8 @@ html,
     .Omne {background-color: black;color: white;margin-top: 200px;}
     .janina1{max-width: 100%; height:auto ;width: 200px;float:left;}
 .box {text-align: justify;margin: 50px;padding-left:  300px;}
+
+
    
       /* Sekce a vzdělání*/
 .Vzdelani {background-color: #b62432;color: black;margin-top: 200px;}
@@ -55,3 +57,10 @@ html,
 .Budoucnost {background-color: white;color: #b62432;margin-top: 200px;}
 .box3 {text-align:justify;margin: 50px;max-width: 700px;padding-left:  300px;}
 .janina4 {max-width: 100%; height:auto ;width: 300px;float:right;margin-top: 200px;}
+/* Sekce a kontakty*/
+.Kontakty {background-color: gray;;margin-top: 200px;height: 200px;}
+.fc {max-width: 100%;width: 100px;height: auto;margin:80px;text-align: center;}
+
+.mobil{max-width: 100%;width: 100px;height: auto;margin:80px ;text-align: center;}
+.mail {max-width: 100%;width: 100px;height: auto; margin:80px;text-align: center;}
+.box4 {width: 900px;padding-left:  300px;}

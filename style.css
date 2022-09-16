@@ -8,6 +8,8 @@ html,
     overflow: auto ; padding: 0;
         
     }
+    h1 {color: #b62432;}
+    h2 {color: white;}
   .pozadi {background-image: url(obrazky/pozadi.png); background-repeat: no-repeat;background-attachment:fixed;
     background-size: cover ;}
     /* Menu*/
@@ -42,7 +44,7 @@ html,
     /* Sekce a o mně */
     .Omne {background-color: black;color: white;margin-top: 200px;}
     .janina1{max-width: 100%; height:auto ;width: 200px;float:left;}
-.box {text-align: justify;margin: 50px;padding-left:  300px;}
+.box {text-align: justify;margin: 50px;padding-left:  300px; }
 
 
    
@@ -51,7 +53,7 @@ html,
 .box1 {text-align: justify;margin: 50px;max-width: 700px;padding-left:  300px;}
 .janina2{max-width: 100%; height:auto ;width: 200px;float:right;}
 /* Sekce a vzdělání*/
-.Pracovnizkusenosti{background-color: gray;color: #b62432;margin-top: 200px;}
+.Pracovnizkusenosti{background-color: gray;color: white;margin-top: 200px;}
 .box2 {text-align:justify;margin: 50px;max-width: 700px;padding-left:  300px;}
 .janina3 {max-width: 100%; height:auto ;width: 200px;float:left;}
 /* Sekce a budoucnost*/
@@ -59,7 +61,15 @@ html,
 .box3 {text-align:justify;margin: 50px;max-width: 700px;padding-left:  300px;}
 .janina4 {max-width: 100%; height:auto ;width: 300px;float:right;margin-top: 200px;}
 /* Sekce a kontakty*/
-.Kontakty { background-color:grey;
-  opacity: 80%;text-align: center;padding:0;margin:0;}
-
-.fc,.mobil,.mail {max-width: 100%;width: 70px;height: auto;padding: 0 50px ;}
+.Kontakty { background-color:grey; padding: 10px 0;
+  opacity: 80%;text-align: center;padding:0;margin:0;margin-top: 200px;}
+/* Sekce a paticka*/
+.fc,.mobil,.mail {max-width: 100%;width: 70px;height: auto;padding: 0 50px }
+.paticka {
+  padding: 10px 0;
+  text-align: center;
+  background-color: gray;
+  color:#b62432;
+  opacity: 80%;
+  font-weight: bold;
+}

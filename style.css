@@ -17,7 +17,7 @@ h1 {
 h2 {
   color: white;
 }
-.pozadi {background-image: url(obrazky/pozadi.png);
+.pozadi {background-image: url(obrazky/pozadi.jpg);
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover ;

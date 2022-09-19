@@ -60,7 +60,7 @@ h2 {
 }
 
 /* Sekce a o mně */
-.Omne {
+.omne {
   background-color: black;
   color: white;
   margin-top: 200px;
@@ -77,7 +77,7 @@ h2 {
   padding-left:  300px; 
 }
 /* Sekce a vzdělání*/
-.Vzdelani {
+.vzdelani {
   background-color: #b62432;
   color: black;
   margin-top: 200px;
@@ -95,7 +95,7 @@ h2 {
   float:right;
 }
 /* Sekce a vzdělání*/
-.Pracovnizkusenosti{
+.pracovnizkusenosti{
   background-color: gray;
   color: white;
   margin-top: 200px;
@@ -114,7 +114,7 @@ h2 {
   }
 
 /* Sekce a budoucnost*/
-.Budoucnost {
+.budoucnost {
   background-color: white;
   color: #b62432;
   margin-top: 200px;
@@ -134,7 +134,7 @@ h2 {
   }
 
 /* Sekce a kontakty*/
-.Kontakty { 
+.kontakty { 
   background-color:grey;
    padding: 10px 0;
   opacity: 80%;

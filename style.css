@@ -30,17 +30,24 @@ h2 {
   text-align: left;
   color: black;
   background-color:white;
-  opacity: 80%;
+  opacity: 80%; 
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  
 }
     
 .menu a {
-  display: inline-block;
+  display:inline-block;
   padding: 20px 30px;
   font-size: 20px;
   font-style: normal;
   text-decoration: none;
   font-weight: bold;
   color:black;
+ 
 }
     
 .menu a:hover {
@@ -52,6 +59,9 @@ h2 {
   background-color: #b62432;
   text-align: center;
   height: 150px;
+  margin-top: 70px;
+  
+  
 }
 .logo {
   max-width: 100%;
@@ -64,6 +74,9 @@ h2 {
   background-color: black;
   color: white;
   margin-top: 200px;
+  
+  
+ 
 }
 .janina1{
   max-width: 100%; 
@@ -73,7 +86,7 @@ h2 {
  }
 .box {
   text-align: justify;
-  margin: 50px;
+  margin:0 auto;
   padding-left:  300px; 
 }
 /* Sekce a vzdělání*/

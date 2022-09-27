@@ -74,15 +74,13 @@ h2 {
   background-color: black;
   color: white;
   margin-top: 200px;
-  
-  
- 
 }
 .janina1{
   max-width: 100%; 
   height:auto ;
   width: 200px;
   float:left;
+  transform: perspective(500px);
  }
 .box {
   text-align: justify;
@@ -94,6 +92,7 @@ h2 {
   background-color: #b62432;
   color: black;
   margin-top: 200px;
+ 
 }
 .box1 {
   text-align: justify;
@@ -132,6 +131,7 @@ h2 {
   color: #b62432;
   margin-top: 200px;
 }
+
 .box3 {
   text-align:justify;
   margin: 50px;
